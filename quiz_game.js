@@ -10,5 +10,5 @@ function send(){
     num1 = document.getElementById("number1").value;
     num2 = document.getElementById("number2").value;
     answer = parseInt(num1) * parseInt(num2);
-    document.getElementById("output").innerHTML = "<h3>" + "Question:" + "</h3>" + "<br>"  + "<p>" + num1 + "</p>"  + "<p>" + " X " + "</p> " + "<p>" + num2 + "</p>"+ "<br>" + "<h3>Answer: "  + "<input type='number'>" +  "<h3>" + "Answer" + "</h3>" + "</input>" + "<button class='btn btn-success'>" + "<h3>" + "Submit" + "</h3>" + "</button>";
+    document.getElementById("output").innerHTML = "<h1>" + "Q" + "</h1>" + "<h1>" + num1 + "</h1>"  + "<h1>" + " X " + "</h1> " + "<p>" + num2 + "</p>"+ "<br>" + "<h3>Answer: "  + "<input type='number'>" + "</input>" + "<button class='btn btn-success'>" + "<h3>" + "Submit" + "</h3>" + "</button>";
 }
